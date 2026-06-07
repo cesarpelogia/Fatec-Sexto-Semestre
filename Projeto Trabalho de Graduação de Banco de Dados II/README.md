@@ -341,7 +341,7 @@ A arquitetura dual de banco de dados (MongoDB para dados analíticos públicos e
 
 Atuei como Scrum Master e desenvolvedor, com foco na infraestrutura de autenticação, observabilidade e pipeline de dados.
 
-1. **Pipeline ETL (Python / FastAPI)**
+## 1. Pipeline ETL (Python / FastAPI)
    - Implementação das etapas de extração e transformação dos dados públicos da ANEEL, incluindo processamento dos indicadores DEC/FEC e arquivos geoespaciais BDGD
    - Carga incremental no MongoDB com upsert idempotente, garantindo reprocessamento seguro sem duplicação de dados
 
@@ -635,7 +635,7 @@ def test_log_entry_does_not_contain_forbidden_fields():
 
 Essa bateria de testes garante que nenhuma refatoração futura introduza inadvertidamente dados pessoais nos logs, tornando a conformidade com a LGPD parte do pipeline de CI.
 
-4. **Documentação e Gestão**
+## 4. Documentação e Gestão
    - Organização do backlog, manutenção do burndown e alinhamento das entregas com o parceiro Tecsys ao longo das sprints
 
 ### Hard Skills
@@ -652,8 +652,6 @@ Essa bateria de testes garante que nenhuma refatoração futura introduza inadve
 - **Visão sistêmica:** Capacidade de coordenar módulos interdependentes (ETL, autenticação, frontend) garantindo coerência técnica e funcional na entrega final para o parceiro.
 - **Responsabilidade técnica:** Condução de decisões arquiteturais com impacto direto na segurança e conformidade legal do produto, equilibrando prazo e qualidade.
 - **Liderança:** Gestão das sprints e alinhamento contínuo com o parceiro Tecsys, mantendo o foco nas prioridades estratégicas do produto mesmo diante das complexidades técnicas do semestre.
-
----
 
 ---
 
