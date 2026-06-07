@@ -312,9 +312,7 @@ Atuei como integrador do ecossistema, coordenando backend, ETL e frontend num mo
 
 ---
 
-## Em 2026-1
-
-## Em 2026-1
+## :heavy_check_mark: Em 2026-1
 
 ### Parceiro Acadêmico
 [Tecsys do Brasil](https://www.tecsysbrasil.com.br/)
