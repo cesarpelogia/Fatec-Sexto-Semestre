@@ -19,11 +19,31 @@ Me encontrei na área de dados e arquitetura de sistemas, onde busco constanteme
 ### Parceiro Acadêmico
 [Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)
 
+<details>
+<summary>Fatec São José dos Campos - Prof. Jessen Vidal</summary>
+<img src="./images/fatec.png" alt="Fatec São José dos Campos - Prof. Jessen Vidal">
+<b>Figura 1: Fachada da Fatec SJC</b>
+</details>
+
 Criada em 2 de março de 2006, a FATEC São José dos Campos - Prof. Jessen Vidal é uma Faculdade de Tecnologia do Estado de São Paulo que pertence ao Centro Estadual de Educação Tecnológica Paula Souza (CEETEPS) e oferece cursos gratuitos no formato Tecnólogo.
 
 Sendo a empresa parceira no primeiro semestre, com a alcunha de PBLTex, a Fatec propôs um desafio relacionado à gestão educacional: a instituição utiliza ciclos de avaliação para cálculo do FEE (Fator de Ensino Evolutivo), porém não possuía um sistema para gerenciamento e acompanhamento desses dados. O problema central era a ausência de uma ferramenta que permitisse controle e rastreabilidade das avaliações realizadas em cada ciclo.
 
-A [CoderHood](https://github.com/CoderHood-Fatec/ProjetoCoderHood) desenvolveu uma aplicação web para gerenciamento dos ciclos de avaliação, cobrindo desde o cadastro de turmas, alunos e professores até o lançamento de notas por ciclo e a exportação dos resultados em CSV. O backend, implementado com Flask, expõe endpoints REST que respondem tanto à renderização de páginas via Jinja quanto a requisições assíncronas do frontend. A persistência é feita em arquivos JSON, com carregamento em memória na inicialização e gravação a cada operação. O cálculo da média ponderada por aluno é realizado no servidor a partir das notas registradas em cada ciclo, e o resultado é exibido na tela de detalhes da turma.
+A [CoderHood](https://github.com/CoderHood-Fatec/ProjetoCoderHood) desenvolveu uma aplicação web para gerenciamento dos ciclos de avaliação, cobrindo desde o cadastro de turmas, alunos e professores até o lançamento de notas por ciclo e a exportação dos resultados em CSV. O backend, implementado com Flask, expõe endpoints REST que respondem tanto à renderização de páginas via Jinja quanto a requisições assíncronas do frontend.
+
+<details>
+<summary>Cadastro de notas e exibição de média em um ciclo</summary>
+<img src="./images/sem1/sem1-1.gif">
+<b>Figura 2: Cadastro de notas e exibição de média em um ciclo</b>
+</details>
+
+A persistência é feita em arquivos JSON, com carregamento em memória na inicialização e gravação a cada operação. O cálculo da média ponderada por aluno é realizado no servidor a partir das notas registradas em cada ciclo, e o resultado é exibido na tela de detalhes da turma.
+
+<details>
+<summary>Modelagem de Dados em JSON</summary>
+<img src="./images/sem1/Modelagem de dados persistidos em JSON.jpg" alt="Modelagem de Dados em Json">
+<b>Figura 3: Modelagem de Dados em formato Json</b>
+</details>
 
 ### Tecnologias Utilizadas
 
@@ -35,20 +55,11 @@ A [CoderHood](https://github.com/CoderHood-Fatec/ProjetoCoderHood) desenvolveu u
 
 ### Contribuições Pessoais
 
-Atuei no desenvolvimento de funcionalidades de front-end e back-end, com foco em integração de dados e estilização da interface.
+Foi o primeiro semestre, e o trabalho refletia exatamente isso. Atuei no front-end e no back-end, ainda aprendendo a conectar as duas pontas. Implementei a funcionalidade de edição de alunos, desde a interface integrada ao menu do professor até a rota de consulta por ID no back-end e a integração via fetch. Pequeno para quem já tem experiência, relevante para quem estava aprendendo o que significa fazer uma tela conversar com um servidor.
 
-1. **Edição de Alunos**
-   - Interface de edição integrada ao menu de professor, com listagem de alunos e ação "Alterar Aluno"
-   - Rota de consulta por ID no back-end (`GET /aluno/<id>`) e integração com o front-end via `fetch`
+Também reorganizei a estrutura dos dados em JSON, criando vínculos consistentes entre alunos e turmas. Foi a primeira vez que precisei pensar em como os dados se relacionam antes de pensar em como exibi-los. A estilização das telas de login e gestão de alunos veio junto, consolidando uma identidade visual mínima para o projeto.
 
-2. **Reestruturação de Dados (JSON)**
-   - Reorganização de `alunos.json` e `turmas.json`, criando vínculos consistentes entre alunos e turmas
-
-3. **Estilização (CSS)**
-   - Padronização de tipografia, cores e layout nas telas de login, área do professor e gestão de alunos
-
-4. **Documentação**
-   - Padronização dos requisitos funcionais e reorganização do backlog por diretrizes ágeis
+Na documentação, trabalhei na padronização dos requisitos funcionais e na reorganização do backlog seguindo diretrizes ágeis. Era o começo do contato com processo, antes mesmo de saber que isso um dia viraria o centro da minha atuação no projeto.
 
 ### Hard Skills
 
@@ -61,9 +72,11 @@ Atuei no desenvolvimento de funcionalidades de front-end e back-end, com foco em
 
 ### Soft Skills
 
-- **Adaptação:** Primeiro contato com desenvolvimento de software em equipe, o que exigiu rápida adaptação ao fluxo colaborativo de trabalho e à metodologia ágil, até então desconhecida para mim.
-- **Organização e gestão do tempo:** Necessidade de conciliar o aprendizado de novas tecnologias com os prazos do projeto e das demais disciplinas do semestre, o que exigiu planejamento e disciplina desde o início.
-- **Comunicação:** Desenvolvimento da capacidade de alinhar expectativas com a equipe, definindo responsabilidades e garantindo que as entregas atendessem aos critérios acordados.
+Durante o primeiro semestre, a equipe enfrentou desafios significativos: compreender o funcionamento do sistema, estabelecer uma dinâmica de trabalho coletivo eficiente, dominar as ferramentas utilizadas e equilibrar a gestão do tempo entre o projeto de API e as demais disciplinas.
+
+Conflitos surgiram, como era esperado em um grupo em formação. A equipe esteve, por vezes, desorientada e desmotivada, o que resultou em entregas aquém do esperado.
+
+Essa experiência, no entanto, não foi em vão, ela acendeu a fagulha que, nos semestres seguintes, se tornaria realidade: a necessidade de exercer formalmente a função de Scrum Master.
 
 ---
 
@@ -72,9 +85,26 @@ Atuei no desenvolvimento de funcionalidades de front-end e back-end, com foco em
 ### Parceiro Acadêmico
 [Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)
 
-No segundo semestre de parceria com a FATEC, o desafio apresentado foi o desenvolvimento de uma ferramenta para consolidar e gerenciar dados climáticos de estações meteorológicas do estado de São Paulo. A solução deveria ser capaz de processar múltiplos arquivos CSV provenientes de diferentes estações, organizar os dados de forma consistente e possibilitar sua análise por meio de relatórios.
+No segundo semestre de parceria com a FATEC, o desafio apresentado foi o desenvolvimento de uma ferramenta para consolidar e gerenciar dados climáticos de estações meteorológicas do estado de São Paulo.
+A solução deveria ser capaz de processar múltiplos arquivos CSV provenientes de diferentes estações, organizar os dados de forma consistente e possibilitar sua análise por meio de relatórios.
 
-Com o [Zeus](https://github.com/FatecCoderHood/Coderhood), a equipe desenvolveu uma aplicação desktop em Java com interface JavaFX para carga e gestão de dados climáticos. O sistema processa arquivos CSV do INMET em dois formatos distintos, automático e manual, detectando o formato e extraindo metadados diretamente do nome do arquivo. Os dados ingeridos são normalizados, classificados como válidos ou suspeitos com base em limites configuráveis por variável climática, e persistidos em um banco PostgreSQL com garantia de idempotência nas inserções. A aplicação oferece CRUD de cidades e estações, relatório de valor médio por período, relatório de situação com a última leitura válida por variável, dados para geração de gráfico BoxPlot e tratamento de registros suspeitos.
+Com o [Zeus](https://github.com/FatecCoderHood/Coderhood), a equipe desenvolveu uma aplicação desktop em Java com interface JavaFX para carga e gestão de dados climáticos.
+
+<details>
+<summary>Tela Inicial da Aplicação Zeus</summary>
+<b>Figura 4: Tela Inicial da Aplicação Zeus</b>
+<img src="./images/sem2/Zeus-02.png" alt="Tela inicial da aplicação Zeus">
+</details>
+
+O sistema processa arquivos CSV do INMET em dois formatos distintos, automático e manual, detectando o formato e extraindo metadados diretamente do nome do arquivo. Os dados ingeridos são normalizados, classificados como válidos ou suspeitos com base em limites configuráveis por variável climática, e persistidos em um banco PostgreSQL com garantia de idempotência nas inserções.
+
+<details>
+<summary>Diagrama de entidade e relacionamento</summary>
+<img src="./images/sem2/DER Zeus.jpg" alt="Diagrama de entidade e relacionamento">
+<b>Figura 5: Diagrama Conceito do Banco de Dados</b>
+</details>
+
+A aplicação oferece CRUD de cidades e estações, relatório de valor médio por período, relatório de situação com a última leitura válida por variável, dados para geração de gráfico BoxPlot e tratamento de registros suspeitos.
 
 ### Tecnologias Utilizadas
 
@@ -82,22 +112,14 @@ Com o [Zeus](https://github.com/FatecCoderHood/Coderhood), a equipe desenvolveu 
 - **JavaFX:** Framework para construção da interface gráfica desktop, com telas definidas em FXML e controllers vinculados por injeção de dependência.
 - **PostgreSQL:** Banco de dados relacional utilizado para armazenamento dos registros climáticos. O schema é criado automaticamente na inicialização da aplicação, incluindo constraints de unicidade que garantem a integridade das inserções.
 - **Git / GitHub:** Controle de versão e colaboração entre os membros da equipe ao longo das quatro sprints do projeto.
+
 ### Contribuições Pessoais
 
-Atuei como Scrum Master e desenvolvedor, sendo responsável pela organização das sprints e pela implementação do módulo de gerenciamento de estações.
+Foi o semestre em que acumulei as duas funções ao mesmo tempo, Scrum Master e desenvolvedor, e aprendi na prática o custo disso.
 
-1. **Gerenciamento de Estações (Java + JavaFX)**
-   - CRUD completo com integração nas camadas Controller → Service → Repository
-   - Validação de duplicidade de sigla e exclusão com garantia de integridade referencial
+No lado técnico, fui responsável pelo módulo de gerenciamento de estações em Java com JavaFX. Implementei o CRUD completo respeitando a separação entre Controller, Service e Repository, com validação de duplicidade de sigla e controle de integridade referencial na exclusão. Também estruturei a base do módulo de dados suspeitos, criando o serviço e a interface inicial que o time desenvolveria nas sprints seguintes.
 
-2. **Integração com Banco (SQL)**
-   - Persistência via `EstacaoSQL` com regras de negócio centralizadas em `EstacaoService`
-
-3. **Módulo de Dados Suspeitos**
-   - Estruturação inicial do `SuspeitoService` e da interface `Suspeito.fxml` com tabela e colunas principais
-
-4. **Documentação e Gestão**
-   - README atualizado, burndown das Sprints 1, 2 e 3 e organização das histórias de usuário
+Na gestão, mantive o burndown atualizado, organizei as histórias de usuário e documentei o projeto. Era a primeira vez exercendo o papel de Scrum Master, e a documentação era uma forma de manter o controle sobre um processo que eu ainda estava aprendendo a conduzir.
 
 ### Hard Skills
 
@@ -109,9 +131,7 @@ Atuei como Scrum Master e desenvolvedor, sendo responsável pela organização d
 
 ### Soft Skills
 
-- **Liderança técnica:** Primeira experiência prática como Scrum Master, envolvendo distribuição de tarefas, acompanhamento do burndown e mediação de impasses entre os membros da equipe, o que exigiu equilíbrio entre a gestão do projeto e a contribuição técnica.
-- **Comunicação técnica:** Desenvolvimento da capacidade de apresentar resultados e justificar decisões técnicas para stakeholders com diferentes níveis de conhecimento sobre o sistema.
-- **Organização:** Planejamento e acompanhamento contínuo das entregas por sprint, garantindo o cumprimento dos critérios de aceitação definidos com o cliente.
+No segundo semestre, a necessidade identificada anteriormente tornou-se ação concreta: assumi a função de Scrum Master. A experiência exigiu equilíbrio constante entre a liderança do grupo e a contribuição técnica direta. Foi necessário distribuir tarefas de forma estratégica, acompanhar o burndown e mediar impasses entre os membros da equipe. Paralelamente, desenvolvi a capacidade de apresentar resultados e justificar decisões técnicas com diferentes níveis de familiaridade com o sistema. O planejamento por sprint, aliado ao acompanhamento contínuo das entregas e à validação dos critérios de aceitação acordados com o cliente, conferiu ao projeto um ritmo mais sólido e previsível. A necessidade do primeiro semestre havia se transformado no diferencial do segundo.
 
 ---
 
@@ -128,6 +148,12 @@ Com o [Morpheus](https://github.com/Morpheus-Fatec/morpheus), a equipe entregou 
 
 A coleta é agendada via expressão cron ajustável em runtime, com scraping e consumo de APIs externas executados em paralelo. As notícias capturadas passam por filtragem baseada em tags com suporte a sinônimos e regionalismos: o sistema expande automaticamente cada termo para suas variações antes de verificar o conteúdo, tanto na coleta quanto na consulta.
 
+<details>
+<summary>Diagrama de entidade e relacionamento Morphues</summary>
+<img src="./images/sem3/DER Morpheus.png" alt="Diagrama de entidade e relacionamento Morphues">
+<b>Figura 6: Diagrama Conceito do Banco de Dados</b>
+</details>
+
 A busca pelo usuário utiliza filtros dinâmicos compostos por título, conteúdo, autor, portal de origem e período, com resultados paginados.
 
 ### Tecnologias Utilizadas
@@ -139,20 +165,15 @@ A busca pelo usuário utiliza filtros dinâmicos compostos por título, conteúd
 
 ### Contribuições Pessoais
 
-Atuei exclusivamente como Scrum Master, com gestão integral das sprints e contribuições pontuais na integração do módulo de APIs.
+Foi o semestre em que deixei de codar de forma central e assumi a gestão integral das sprints.Foi o semestre em que deixei de codar de forma central e assumi a gestão integral das sprints. A contribuição técnica existiu, mas foi pontual: ajustes na integração entre front-end e back-end no módulo de APIs, substituindo rotas inconsistentes por padrões definitivos via Vue.js e Axios, corrigindo payloads e organizando a camada de serviço no back-end. O tipo de tarefa que aparece quando alguém precisa destravar o time, não quando está no centro do desenvolvimento.
 
-1. **Integração Front-end ↔ Back-end (módulo de APIs)**
-   - Substituição de rotas inconsistentes por padrões definitivos via Vue.js + Axios
-   - Ajuste do payload de criação/edição de APIs (tagCodes, flags GET/POST) e correção das chamadas REST (`/morpheus/api/{code}`)
+A maior parte da energia foi dedicada à gestão. Manter o burndown, atualizar a documentação e garantir que as sprints tivessem critérios de aceitação claros eram as responsabilidades que mais pesavam. Era o terceiro semestre no projeto e o primeiro em dedicação exclusiva à função. A diferença foi perceptível: com menos alternância de contexto, o acompanhamento do time ficou mais próximo e as entregas mais previsíveis.
 
-2. **Correções no Back-end**
-   - Organização de imports e padronização de classes de resposta em `ApiService.java`
-
-3. **Padronização de UI e Navegação**
-   - Reestruturação do menu com agrupamentos lógicos ("Gerenciar", "Conteúdos")
-
-4. **Documentação e Gestão**
-   - Atualização do README com status das sprints e manutenção contínua do burndown
+<details>
+<summary>Gráfico Burndown</summary>
+<img src="./images/sem3/BurnDownChart.png" alt="Burndown Chart">
+<b>Figura 7 - Gráfico Burndown</b>
+</details>
 
 ### Hard Skills
 
@@ -164,9 +185,13 @@ Atuei exclusivamente como Scrum Master, com gestão integral das sprints e contr
 
 ### Soft Skills
 
-- **Liderança em cenários adversos:** Gerenciei a equipe em um momento de recomposição de integrantes e baixo engajamento, o que exigiu capacidade de manter o alinhamento e a motivação do time sem comprometer os prazos das entregas.
-- **Planejamento de capacitação:** Identifiquei lacunas técnicas na equipe e organizei direcionamentos para nivelamento de conhecimento, garantindo que todos pudessem contribuir nas sprints seguintes.
-- **Comunicação:** Mantive alinhamento constante com o Product Owner para que as entregas refletissem corretamente as prioridades do cliente, mesmo diante das dificuldades internas do semestre.
+No terceiro semestre, a atuação como Scrum Master ganhou novos contornos. Diferentemente do semestre anterior, a função passou a ser exercida em dedicação exclusiva à gestão — sem contribuição direta no desenvolvimento —, o que permitiu um acompanhamento mais próximo da equipe e do andamento das sprints.
+
+O principal desafio do período foi a recomposição do time: novos integrantes, com quem ainda não havia trabalhado, precisaram ser integrados rapidamente à dinâmica do projeto. Somado a isso, o Product Owner possuía experiência consideravelmente superior à do grupo, o que elevou o nível de exigência das entregas e exigiu maior rigor no alinhamento entre as expectativas do cliente e a capacidade técnica real da equipe.
+
+Diante das lacunas identificadas, foi necessário organizar direcionamentos de capacitação para nivelar o conhecimento entre os membros, garantindo que todos pudessem contribuir efetivamente nas sprints seguintes. Manter a motivação e o alinhamento do time, mesmo em um cenário de baixo engajamento inicial, tornou-se tão relevante quanto o cumprimento dos prazos.
+
+Apesar das adversidades, o semestre foi concluído com resultados satisfatórios. Mais do que isso, o conjunto de desafios enfrentados — lidar com um time desconhecido, gerenciar expectativas elevadas e conduzir um processo de capacitação em paralelo às entregas — consolidou de forma significativa a minha visão sobre gestão de equipes, ampliando tanto a experiência prática quanto a maturidade no exercício da liderança.
 
 ---
 
@@ -181,7 +206,21 @@ A empresa nos trouxe o desafio de desenvolver um sistema web para edição e an�
 
 Com o [Demeter](https://github.com/Morpheus-Fatec/API_4S_Visiona_PolygonEditor), desenvolvemos uma plataforma web para visualização e edição de polígonos geoespaciais agrícolas. O sistema recebe arquivos GeoJSON com classificações automáticas geradas por modelos de IA, converte as geometrias para o formato MultiPolygon com validação estrutural e persiste os dados em PostgreSQL com a extensão PostGIS utilizando SRID 4326.
 
+<details>
+<summary>Diagrama de Entidades e Relacionacionamentos</summary>
+<img src="./images/sem4/DER Demeter.png" alt="Ciclo de validação Talhão.">
+<b>Figura 8: Diagrama de Entidades e Relacionacionamentos</b>
+</details>
+<br>
+
 O fluxo de trabalho envolve três perfis: o analista edita manualmente as classificações sobre o mapa, desenhando polígonos diretamente na interface; o consultor revisa o trabalho do analista, anotando regiões com comentários georreferenciados e aprovando ou rejeitando o talhão. O sistema identifica automaticamente falsos positivos e falsos negativos comparando as classificações automáticas e manuais via operações espaciais, expondo essas divergências como camadas GeoJSON separadas para apoiar o refinamento dos modelos.
+
+<details>
+<summary>Ciclo de validação Talhão</summary>
+<img src="./images/sem4/Ciclo de validação Talhão.png" alt="Ciclo de validação Talhão.">
+<b>Figura 9: Ciclo de validação Talhão</b>
+</details>
+<br>
 
 Talhões aprovados podem ser exportados em GeoJSON estruturado para reintegração ao pipeline de IA da Visiona. Dashboards analíticos consolidam métricas de desempenho por analista e consultor, comparando produtividade individual com a média da equipe e acompanhando a evolução mensal das áreas classificadas.
 
@@ -198,30 +237,15 @@ Talhões aprovados podem ser exportados em GeoJSON estruturado para reintegraç�
 
 ### Contribuições Pessoais
 
-Atuei como Scrum Master e desenvolvedor, com ênfase no processamento de dados geoespaciais e implementação de consultas espaciais avançadas.
+Foi o semestre tecnicamente mais denso que eu havia enfrentado até então. Voltei a acumular desenvolvimento e gestão, mas o nível de complexidade do que estava sendo construído era diferente de tudo que tinha feito antes.
 
-1. **Processamento e Persistência Geoespacial**
-   - Implementação do conversor `GeoJsonToJTSConverter`, responsável por transformar coordenadas GeoJSON em objetos `MultiPolygon` da biblioteca JTS, com validação estrutural de fechamento de anéis via `ensureClosedRing`: caso o primeiro e o último ponto de um anel não coincidam, o conversor insere automaticamente uma cópia do ponto inicial ao final do array, garantindo geometrias válidas antes da persistência
-   - Implementação do conversor inverso `ConverterToMultipolygon`, que serializa objetos `MultiPolygon` do JTS de volta para a estrutura de coordenadas aninhadas do GeoJSON, percorrendo anéis exteriores e interiores de cada polígono
-   - Persistência via PostGIS com SRID 4326, cobrindo o fluxo completo: recebimento via API REST, conversão para geometria JTS, armazenamento no banco e retorno em GeoJSON para o frontend
+A maior parte do meu trabalho foi no processamento geoespacial. Implementei os conversores entre GeoJSON e os objetos de geometria da biblioteca JTS, incluindo a validação de fechamento de anéis antes da persistência, algo que parece um detalhe até o momento em que uma geometria inválida quebra o banco. Todo o fluxo, do recebimento via API até o armazenamento no PostGIS e o retorno ao frontend, passou pelas minhas mãos.
 
-2. **Consultas Espaciais para Identificação de Divergências**
-   - Implementação dos endpoints de false positives e false negatives, que comparam as classificações automáticas geradas pela IA com as classificações manuais dos analistas usando operações de interseção espacial via PostGIS
-   - False positives: regiões que a IA classificou mas o analista não confirmou; false negatives: regiões que o analista classificou mas a IA não detectou. Ambos retornam como coleções GeoJSON independentes, permitindo que a equipe da Visiona identifique padrões de erro nos modelos
+Também implementei os endpoints de false positives e false negatives, que comparavam as classificações automáticas da IA com as classificações manuais dos analistas usando interseção espacial via PostGIS. Era o coração analítico do sistema: sem essas consultas, a equipe da Visiona não conseguia identificar onde os modelos estavam errando.
 
-3. **Fluxo de Classificação e Controle por Perfil**
-   - Controle de edição por perfil via `ClassificationControl`: analistas registram tempo de edição, contagem de interações e geometrias manuais; consultores registram revisões georreferenciadas com comentários e definem o status final do talhão (aprovado, rejeitado ou em revisão)
-   - Bloqueio de edição concorrente: o sistema valida se o `analystResponsable` ou `consultantResponsable` já está atribuído ao controle antes de permitir novas edições, evitando sobrescrita de trabalho entre usuários
+O controle de edição por perfil e o bloqueio de edição concorrente vieram da necessidade real de evitar que dois usuários sobrescrevessem o trabalho um do outro. Não foi uma decisão de arquitetura abstrata, foi uma resposta a um problema concreto.
 
-4. **Exportação de GeoJSON Estruturado**
-   - Implementação dos endpoints de download em dois formatos: `SaidaDTO` para talhões aprovados, com geometria e atributos agrícolas no padrão esperado pelo pipeline da Visiona; `ManualDTO` para exportação das classificações manuais com classe de uso do solo por polígono
-
-5. **Arquitetura e Estabilidade**
-   - Refatoração de payloads de resposta para separação clara entre DTO de criação, atualização e visualização
-   - Correção de `NullPointerException` em coleções não inicializadas em entidades JPA
-
-6. **Documentação e Gestão**
-   - Reestruturação do README, manuais com evidências visuais e backlog alinhado à execução real das sprints
+Na gestão, o semestre foi mais equilibrado. A documentação e o backlog refletiam o que estava sendo de fato entregue, o que nem sempre havia sido o caso nos semestres anteriores.
 
 ### Hard Skills
 
@@ -235,9 +259,11 @@ Atuei como Scrum Master e desenvolvedor, com ênfase no processamento de dados g
 
 ### Soft Skills
 
-- **Adaptação a mudanças de escopo:** Capacidade de replanejamento diante de requisitos que chegaram tardiamente, mantendo a qualidade das entregas dentro do prazo acordado com o cliente.
-- **Resiliência:** Manutenção do foco e da produtividade em um ambiente marcado por conflitos internos e oscilações no engajamento da equipe ao longo das sprints.
-- **Liderança técnica:** Coordenação das decisões arquiteturais e mediação entre os diferentes perfis técnicos da equipe, garantindo a consistência da solução entregue à Visiona.
+No quarto semestre, o equilíbrio conquistado anteriormente foi posto à prova de forma diferente. Uma divergência entre o Product Owner e um dos desenvolvedores, iniciada como discordância técnica, evoluiu para um conflito interpessoal que foi fragmentando o time ao longo do semestre. O ciclo encerrou com entregas satisfatórias, porém sem a continuidade da equipe.
+
+A resposta foi a criação de tarefas intermediárias, atividades que integravam o trabalho das duas partes sem exigir interação direta entre elas. Funcionou parcialmente: o trabalho fluiu, a relação não se restabeleceu. Em paralelo, a coordenação entre os squads de backend e frontend, o gerenciamento de bloqueios técnicos e o onboarding de novos membros exigiram comunicação constante e tradução de decisões arquiteturais para diferentes perfis da equipe.
+
+O aprendizado mais duradouro, porém, foi de natureza humana: o papel do Scrum Master não é o de terapeuta, mas o de arquiteto de condições. Nem todo conflito será resolvido — mas é possível criar estruturas que permitam que o trabalho aconteça mesmo quando as pessoas estão com dificuldade de se enxergar.
 
 ---
 
@@ -251,6 +277,15 @@ A empresa nos trouxe o desafio de desenvolver uma solução corporativa integrad
 Com o [NeoHorizon](https://github.com/FatecNeoHorizon/API_5S), a equipe entregou uma plataforma de inteligência operacional estruturada em modelo dimensional, com pipeline ETL automatizado integrado ao Jira, API REST segura com controle de acesso granular por perfil e dashboards interativos para análise de produtividade, custos e apontamentos de horas.
 
 O sistema extrai issues diretamente da API do Jira via JQL, transforma os dados em fatos e dimensões seguindo o modelo estrela, e os carrega no banco PostgreSQL por meio da própria API backend. O controle de acesso é implementado com JWT stateless e quatro perfis distintos: DEVELOPER, MANAGER, ADMIN e ETL, cada um com permissões mapeadas por rota e método HTTP diretamente na cadeia de filtros do Spring Security.
+
+Pela primeira vez, tivemos a oportunidade de trabalhar com o modelo de banco de dados Data Warehouse, onde exploramos conceitos fundamentais como modelagem dimensional, tabelas fato e dimensão, e o processo de ETL (Extract, Transform, Load). 
+
+<details>
+<summary>Data Warehouse</summary>
+<img src="./images/sem5/DER NeoHorizon.png" alt="Data Warehouse.">
+<b>Figura 10: Diagrama de Entidade e Relacionamento Data Warehouse</b>
+</details>
+<br>
 
 ### Tecnologias Utilizadas
 
@@ -266,30 +301,15 @@ O sistema extrai issues diretamente da API do Jira via JQL, transforma os dados 
 
 ### Contribuições Pessoais
 
-Atuei como integrador do ecossistema, coordenando backend, ETL e frontend num monorepo com CI/CD automatizado end-to-end.
+Foi o semestre em que a visão de processo e a visão técnica se encontraram. Atuar como integrador do ecossistema significava que nenhuma decisão era isolada: a modelagem do banco afetava o ETL, o ETL dependia da autenticação, a autenticação precisava fazer sentido para todos os perfis de acesso. Tudo estava conectado, e manter essa coerência foi o trabalho central do semestre.
 
-1. **Modelagem Dimensional e Schema do Banco**
-   - Definição do modelo estrela com três tabelas de fato: `fato_atividade` (quantidade de issues por projeto, período, status e tipo), `fato_apontamento_horas` (horas trabalhadas por dev e atividade) e `fato_custo_hora` (custo calculado por dev e projeto)
-   - Constraints de unicidade por granularidade em cada tabela de fato, garantindo idempotência nas inserções do ETL e impedindo duplicidade ao reprocessar os dados do Jira
+A modelagem dimensional foi o ponto de partida. Definir as três tabelas de fato com constraints de unicidade por granularidade não foi apenas uma escolha técnica, foi o que tornou o reprocessamento dos dados do Jira seguro. Sem idempotência nas inserções, qualquer reexecução do ETL geraria duplicidade. Pensar nisso antes de escrever a primeira linha do pipeline poupou problemas que seriam difíceis de rastrear depois.
 
-2. **Pipeline ETL em Python**
-   - Pipeline sequencial orquestrado em `main.py`, cobrindo extração, transformação e carga de todas as dimensões e fatos em ordem de dependência: projetos, issues Jira, atividades, períodos, tipos, devs, status, fatos
-   - Extração de issues via JQL por projeto com limite de 1000 registros, usando a sessão autenticada da API Jira configurada por variáveis de ambiente
-   - Transformação dos fatos com agrupamento por chave de granularidade (combinação de IDs de dimensão), acumulando quantidades incrementalmente antes da carga
-   - Carga via POST na própria API REST do backend, com autenticação JWT gerada no início do pipeline usando o perfil ETL, capturando e registrando o ID retornado para rastreabilidade
+O pipeline ETL em si foi construído para refletir essa mesma lógica: extração, transformação e carga em ordem de dependência, com autenticação JWT gerada no início e rastreabilidade do que foi inserido. A autenticação com perfil ETL separado das demais roles foi uma decisão que veio da necessidade de dar ao pipeline acesso de escrita sem comprometer os perfis operacionais do sistema.
 
-3. **Autenticação JWT e Controle de Acesso por Perfil**
-   - Implementação do `JwtUtils` com geração de tokens HS512 de 1 hora de validade, embutindo email e roles no claim `UserDetails` como JSON serializado
-   - Implementação do `JwtAuthenticationFilter` como `GenericFilterBean`, interceptando o header `Authorization: Bearer`, validando expiração e populando o `SecurityContext` antes de encaminhar a requisição
-   - Mapeamento granular de permissões no `SecurityConfig` por rota e método HTTP para quatro perfis: DEVELOPER (leitura de atividades e métricas próprias), MANAGER (leitura de custos e gestão de usuários), ADMIN e ETL (escrita em dimensões e fatos)
+A implementação do JWT com controle granular por rota e perfil, quatro perfis com permissões distintas, exigiu clareza sobre o que cada tipo de usuário deveria ou não conseguir fazer. Esse tipo de decisão não pode ser corrigido facilmente depois que o sistema está em uso.
 
-4. **Métricas de Produtividade (DevHoursMetricsService)**
-   - Serviço de métricas de horas por desenvolvedor com filtros opcionais por dev, atividade e intervalo de datas, usando `parallelStream()` com `groupingBy` para agrupamento eficiente em grandes volumes
-   - Resultado estruturado por dev, com total de horas, detalhamento por atividade e lista de apontamentos diários com descrição do trabalho
-
-5. **Arquitetura e Integração dos Módulos**
-   - Monorepo com submódulos Git independentes para backend, ETL e frontend, com contratos REST e autenticação padronizados
-   - Pipelines GitHub Actions para build, teste e publicação de cada módulo, com Docker Compose para orquestração local dos serviços
+A arquitetura em monorepo com submódulos Git independentes e pipelines de CI/CD fechou o ciclo. Cada módulo podia evoluir de forma autônoma, mas o ambiente local subia junto com um único comando. Foi o semestre em que tudo que havia aprendido antes, gestão, integração, decisões arquiteturais, operou ao mesmo tempo.
 
 ### Hard Skills
 
@@ -304,9 +324,11 @@ Atuei como integrador do ecossistema, coordenando backend, ETL e frontend num mo
 
 ### Soft Skills
 
-- **Liderança de integração:** Coordenação entre squads responsáveis por módulos distintos (backend, ETL e frontend), garantindo compatibilidade entre as interfaces e coerência na entrega final.
-- **Gestão de incidentes técnicos:** Identificação e resolução de bloqueios que afetavam múltiplos módulos simultaneamente, mantendo o ritmo das entregas sem comprometer a qualidade.
-- **Comunicação técnica:** Facilitação do onboarding de novos membros e defesa de decisões arquiteturais perante a equipe e stakeholders, traduzindo escolhas técnicas em linguagem acessível.
+No quinto semestre, a decisão foi deixar o cargo de Scrum Master. Três semestres no papel eram suficientes para reconhecer que reter conhecimento não serve a ninguém e dar espaço para outro integrante assumir a função fortalecia o time.
+
+Na questão de DevOps, a minha responsabilidade assumida foi o rastreio de requisitos. Referenciar sprints, commits e pull requests pelo GitHub Projects permitia partir de um requisito e chegar ao commit exato que o implementou. Quando um bug surgia, era possível identificar sua origem com precisão, não para apontar responsáveis, mas para entender o que havia acontecido e corrigir de verdade.
+
+Essa abordagem me trouxe um maior entendimento de processos e o tamanho do valor desse tipo de conceito traz para as equipes. Foi o maior aprendizado adquirido no semestre, conhecimento tal que tive a oportunidade de aplicar em atividades profissionais.
 
 ---
 
@@ -339,17 +361,20 @@ A arquitetura dual de banco de dados (MongoDB para dados analíticos públicos e
 
 Atuei como Scrum Master e desenvolvedor, com foco na infraestrutura de autenticação, observabilidade e pipeline de dados.
 
-## 1. Pipeline ETL (Python / FastAPI)
+### 1. Pipeline ETL (Python / FastAPI)
    - Implementação das etapas de extração e transformação dos dados públicos da ANEEL, incluindo processamento dos indicadores DEC/FEC e arquivos geoespaciais BDGD
    - Carga incremental no MongoDB com upsert idempotente, garantindo reprocessamento seguro sem duplicação de dados
 
-## 2. Autenticação e Autorização com Keycloak e OAuth 2.0
+### 2. Autenticação e Autorização com Keycloak e OAuth 2.0
 
 A autenticação do sistema é delegada ao Keycloak como servidor de identidade centralizado, com o backend atuando como resource server — validando tokens, gerenciando sessões próprias e emitindo seus próprios JWTs para as chamadas subsequentes à API.
 
 ---
 
-### 2.1 Topologia do Keycloak
+#### 2.1 Topologia do Keycloak
+
+<details>
+<summary>Clique para expandir</summary>
 
 O Keycloak é configurado com um realm dedicado ao projeto Zeus e dois clientes distintos:
 
@@ -360,9 +385,14 @@ O Keycloak é configurado com um realm dedicado ao projeto Zeus e dois clientes 
 
 A separação de clientes garante que o frontend nunca precise de um segredo compartilhado — o PKCE substitui essa necessidade — enquanto o backend mantém credenciais privadas para operações administrativas.
 
+</details
+
 ---
 
-### 2.2 Fluxo OAuth 2.0 Authorization Code com PKCE (`oauth_callback`)
+#### 2.2 Fluxo OAuth 2.0 Authorization Code com PKCE (`oauth_callback`)
+
+<details>
+<summary>Clique para expandir</summary>
 
 ```
 User             Frontend             Keycloak           Backend (FastAPI)
@@ -427,9 +457,14 @@ kc_roles = kc_payload.get("realm_access", {}).get("roles", [])
 profile_name = next((r for r in kc_roles if r in ("ADMIN", "MANAGER", "ANALYST")), None)
 ```
 
+</details
+
 ---
 
-### 2.3 Refresh Token Rotation
+#### 2.3 Refresh Token Rotation
+
+<details>
+<summary>Clique para expandir</summary>
 
 A cada renovação de token, o refresh token anterior é **invalidado atomicamente** no banco via `rotate_refresh_token`, que em uma única operação localiza o hash atual, invalida-o e grava o hash do novo token. Se o hash não for encontrado ou a sessão estiver expirada, retorna `401 invalid_or_expired_refresh_token`.
 
@@ -444,9 +479,14 @@ session_data = rotate_refresh_token(
 )
 ```
 
+</details
+
 ---
 
-### 2.4 Logout Duplo
+#### 2.4 Logout Duplo
+
+<details>
+<summary>Clique para expandir</summary>
 
 O logout invalida a sessão em duas camadas:
 
@@ -455,9 +495,15 @@ O logout invalida a sessão em duas camadas:
 
 Sem o logout duplo, mesmo com a sessão invalidada no banco, o token SSO do Keycloak permaneceria válido, permitindo re-autenticação silenciosa sem nova digitação de senha.
 
+
+</details>
+
 ---
 
-### 2.5 `KeycloakAdminClient` — Singleton com Cache de Token
+#### 2.5 `KeycloakAdminClient` — Singleton com Cache de Token
+
+<details>
+<summary>Clique para expandir</summary>
 
 O `KeycloakAdminClient` é instanciado como singleton via `get_keycloak_admin_client()`, garantindo que o cache de token de service account persista entre requisições. O token é obtido via `client_credentials` e reutilizado enquanto válido (com margem de 10 segundos para renovação antecipada).
 
@@ -477,9 +523,14 @@ As operações suportadas via Admin API cobrem todo o ciclo de vida do usuário 
 
 Os erros são tipados em três exceções distintas — `KeycloakUserAlreadyExistsError`, `KeycloakUserNotFoundError` e `KeycloakAdminError` — permitindo tratamento granular na camada de serviço sem depender de inspeção de status HTTP.
 
+</details>
+
 ---
 
-### 2.6 Pseudoanonimização de IP (LGPD)
+#### 2.6 Pseudoanonimização de IP (LGPD)
+
+<details>
+<summary>Clique para expandir</summary>
 
 O IP de origem é mascarado antes de ser persistido na sessão, via `mask_source_ip()`:
 
@@ -498,142 +549,12 @@ def mask_source_ip(source_ip: str | None) -> str:
 
 Essa técnica preserva granularidade suficiente para fins de auditoria e detecção de anomalias (identificar a sub-rede de origem), sem armazenar o endereço exato do usuário — configurando pseudoanonimização conforme o Art. 13 da LGPD.
 
-## 3. Observabilidade com Logs Estruturados (LGPD-compliant)
-
-A estratégia de observabilidade adota logs estruturados em JSON com rastreabilidade por requisição e conformidade com a LGPD, viabilizando tanto o monitoramento operacional quanto a auditoria de ações sensíveis.
+</details>
 
 ---
 
-### 3.1 Configuração do pipeline (`logger.py`)
 
-O módulo `configure_logging()` inicializa o `structlog` com uma cadeia de processadores ordenada:
-
-- `merge_contextvars` — injeta campos vinculados ao contexto da requisição corrente (ex: `request_id`, `user_id`)
-- `add_log_level` e `add_logger_name` — adicionam metadados de origem e severidade
-- `TimeStamper(fmt="iso")` — registra o timestamp em ISO 8601
-- `JSONRenderer()` — serializa toda a entrada como JSON, tornando cada linha machine-readable e ingerível por ferramentas como Loki, Datadog ou ELK
-
-A saída é roteada para um `TimedRotatingFileHandler` com rotação `when="midnight"` e `backupCount=30`. Ao rotacionar, um `rotator` customizado (`gz_rotator`) comprime o arquivo gerado em `.gz` com `gzip`, removendo o original e reduzindo o volume de armazenamento. A retenção de 30 arquivos equivale a um histórico de 30 dias de logs comprimidos.
-
-```python
-structlog.configure(
-    processors=[
-        structlog.contextvars.merge_contextvars,
-        structlog.stdlib.add_log_level,
-        structlog.stdlib.add_logger_name,
-        structlog.processors.TimeStamper(fmt="iso"),
-        structlog.processors.JSONRenderer(),
-    ],
-    ...
-)
-```
-
----
-
-### 3.2 Middleware de rastreamento (`LoggingMiddleware`)
-
-O `LoggingMiddleware`, injetado como Starlette middleware via `setup_middleware()`, instrumenta cada requisição HTTP de forma transparente:
-
-1. **Limpeza de contexto** — `clear_contextvars()` é chamado no início do dispatch para evitar vazamento de dados entre requisições (especialmente relevante em servidores assíncronos com reúso de workers).
-2. **Injeção de contexto** — `bind_contextvars()` injeta no contexto compartilhado:
-   - `request_id`: UUID v4 gerado em tempo de execução, único por requisição
-   - `method` e `path`: identificam a operação HTTP
-   - `user_id`: extraído do campo `sub` do JWT via `_extract_user_id()`, sem propagar exceções caso o header `Authorization` esteja ausente ou o token seja inválido (retorna `None` silenciosamente)
-3. **Evento de entrada** — `request_started` é emitido antes de chamar o próximo handler
-4. **Evento de saída** — `request_finished` é emitido com `status_code` e `duration_ms`, calculado via `time.perf_counter()` (clock de alta resolução). O nível do log é automaticamente escalado para `error` em respostas 5xx, permitindo alertas baseados em severidade sem configuração adicional.
-
-```python
-bind_contextvars(
-    request_id=str(uuid.uuid4()),
-    method=request.method,
-    path=request.url.path,
-    user_id=_extract_user_id(request),  # None se token ausente/inválido
-)
-
-log.info("request_started")
-# ... execução do handler ...
-level = "error" if response.status_code >= 500 else "info"
-getattr(log, level)(
-    "request_finished",
-    status_code=response.status_code,
-    duration_ms=duration_ms,
-)
-```
-
-Exemplo de saída JSON gerada por requisição:
-
-```json
-{"event": "request_started", "request_id": "a3f1...", "method": "POST", "path": "/auth/login", "user_id": null, "level": "info", "timestamp": "2025-06-01T14:32:01.123Z"}
-{"event": "request_finished", "request_id": "a3f1...", "status_code": 200, "duration_ms": 42.7, "level": "info", "timestamp": "2025-06-01T14:32:01.165Z"}
-```
-
----
-
-### 3.3 Catálogo de eventos tipados (`log_events.py`)
-
-Todos os eventos de auditoria são definidos como constantes nomeadas, organizados por domínio de negócio:
-
-| Domínio     | Eventos                                                                 |
-|-------------|-------------------------------------------------------------------------|
-| Usuário     | `user.created`, `user.updated`, `user.deactivated`, `user.deleted`      |
-| Política    | `policy.version.created`, `policy.update.notification.scheduled`        |
-| Consentimento | `consent.registered`, `consent.revoked`, `data_export.requested`      |
-| Sessão      | `session.revoked`, `session.invalidated.all`                            |
-| Incidente   | `incident.notification.sent`                                            |
-
-Essa abordagem elimina strings mágicas espalhadas pela codebase, padroniza os eventos emitidos e facilita filtragem precisa por tipo em ferramentas de observabilidade.
-
-Na camada de serviços, os eventos são emitidos com campos contextuais relevantes, porém **sem dados pessoais**:
-
-```python
-# auth_service.py — revogação de sessão
-log.info(
-    SESSION_REVOKED,
-    acting_user_id=acting_user_id,
-    target_session_uuid=session_uuid,
-    reason="USER_REVOCATION",
-)
-
-# consent_service.py — registro de consentimento
-log.info(CONSENT_REGISTERED, user_id=user_id, clause_id=clause_uuid, channel="WEB")
-
-# user_service.py — falha de integração com Keycloak
-_log.error(
-    "keycloak.user.role_update_failed",
-    keycloak_sub=keycloak_sub,
-    old_role=keycloak_current_role,
-    new_role=new_profile_name,
-    error=str(exc),
-)
-```
-
-Nenhum evento registra email, CPF, nome, senha ou qualquer outro dado pessoal — apenas identificadores opacos (`user_id`, `session_uuid`) e metadados operacionais.
-
----
-
-### 3.4 Testes automatizados de conformidade (`test_logging.py`)
-
-A conformidade com a LGPD e a consistência estrutural dos logs são verificadas por testes automatizados com `structlog.testing.capture_logs`:
-
-| Teste | O que verifica |
-|-------|---------------|
-| `test_log_entry_contains_required_fields` | Presença dos campos `event`, `user_id` e campos de domínio |
-| `test_log_entry_does_not_contain_forbidden_fields` | Ausência de `email`, `cpf`, `password`, `name`, `nome`, `senha` |
-| `test_log_levels_are_correct` | Correspondência entre chamada (`info`, `warning`, `error`) e campo `log_level` |
-| `test_log_entry_is_json_serializable` | Serializabilidade completa da entrada com `json.dumps` |
-
-```python
-def test_log_entry_does_not_contain_forbidden_fields():
-    forbidden = {"email", "cpf", "password", "name", "nome", "senha"}
-    with capture_logs() as logs:
-        log.info("user.created", user_id="abc-123", profile_id="xyz-456")
-    found = forbidden & set(logs[0].keys())
-    assert not found, f"Forbidden fields found in log entry: {found}"
-```
-
-Essa bateria de testes garante que nenhuma refatoração futura introduza inadvertidamente dados pessoais nos logs, tornando a conformidade com a LGPD parte do pipeline de CI.
-
-## 4. Documentação e Gestão
+### 3. Documentação e Gestão
    - Organização do backlog, manutenção do burndown e alinhamento das entregas com o parceiro Tecsys ao longo das sprints
 
 ### Hard Skills
@@ -647,9 +568,14 @@ Essa bateria de testes garante que nenhuma refatoração futura introduza inadve
 
 ### Soft Skills
 
-- **Visão sistêmica:** Capacidade de coordenar módulos interdependentes (ETL, autenticação, frontend) garantindo coerência técnica e funcional na entrega final para o parceiro.
-- **Responsabilidade técnica:** Condução de decisões arquiteturais com impacto direto na segurança e conformidade legal do produto, equilibrando prazo e qualidade.
-- **Liderança:** Gestão das sprints e alinhamento contínuo com o parceiro Tecsys, mantendo o foco nas prioridades estratégicas do produto mesmo diante das complexidades técnicas do semestre.
+O semestre mais técnico de todos. Pela primeira vez, eu não estava apenas gerenciando o processo, estava no centro da arquitetura. Coordenar back-end, ETL e front-end ao mesmo tempo, dentro de um monorepo, exigiu uma visão que vai além do código: qualquer decisão mal tomada em uma ponta afetava as outras duas.
+
+Uma das decisões arquiteturais que mais impactou o sistema foi a definição da estratégia de dual database: PostgreSQL para dados sensíveis e MongoDB para dados públicos. Essa separação não foi apenas uma escolha técnica, foi uma decisão de produto. Dados com implicações legais precisam de um modelo relacional controlado, auditável e aderente à LGPD. Dados públicos, com outro perfil de acesso e volume, se beneficiam da flexibilidade do MongoDB.
+Entender essa diferença e modelar o banco relacional já pensando em conformidade desde o início, incluindo pseudoanonimização e armazenamento seguro de tokens, foi um dos aprendizados mais relevantes do semestre.
+
+O Keycloak entrou como consequência natural dessa visão de segurança. Estudar a fundo os fluxos OAuth 2.0, a topologia de realms e clientes e o PKCE foi necessário para implementar uma autenticação que fizesse sentido para o sistema como um todo, não apenas para uma rota isolada.
+
+A liderança nesse semestre foi menos sobre gestão de pessoas e mais sobre integração técnica. Manter todos os módulos coerentes, o CI/CD funcionando e as entregas alinhadas com o parceiro exigiu o mesmo equilíbrio aprendido nos semestres anteriores, só que aplicado à arquitetura.
 
 ---
 
