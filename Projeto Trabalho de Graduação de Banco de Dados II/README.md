@@ -6,11 +6,11 @@
 
 Este portfólio acadêmico foi construído com projetos realizados em minha formação em Tecnologia em Banco de Dados pela [Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/).
 
-Ingressei no segundo semestre do ano de 2023, após uma transição de carreira de 15 anos na indústria, onde atuava como técnico em mecânica formado pelo Instituto de Tecnologia de Jacareí. Desde então, tive a oportunidade de trabalhar em equipe, desenvolvendo habilidades técnicas enquanto construía soluções para problemas reais, trazidos por empresas parceiras.
+Iniciei o curso em 2023 após uma transição de carreira de 15 anos na indústria, onde atuei como técnico em mecânica pelo Instituto de Tecnologia de Jacareí. Ao longo dos seis semestres, construí uma formação que combina desenvolvimento backend, arquitetura de sistemas e gestão ágil, com atuação como Scrum Master em quatro dos seis semestres do curso.
 
-Durante minha trajetória na FATEC, construí uma formação abrangente que une desenvolvimento full-stack, gestão de equipes ágeis e arquitetura de sistemas. Percorri um caminho que foi dos fundamentos em HTML, CSS e JavaScript até a implementação de soluções backend robustas com Java e Spring Boot, passando por experiências significativas com dados geoespaciais, integração de APIs REST e bancos de dados relacionais e geoespaciais (PostgreSQL, PostGIS). Atuei como Scrum Master em múltiplos projetos, desenvolvendo competências em liderança técnica, planejamento de sprints e adaptação a ambientes dinâmicos.
+A trajetória passou por fundamentos de desenvolvimento web, processamento de dados geoespaciais, pipelines ETL, autenticação e conformidade com a LGPD, até a entrega de sistemas distribuídos com arquitetura de banco de dados dual. Em paralelo ao desenvolvimento técnico, conduzi equipes em ambientes de alta pressão, lidando com conflitos interpessoais, recomposições de time e acúmulo de funções, experiências que moldaram minha visão sobre liderança e entrega de valor.
 
-Me encontrei na área de dados e arquitetura de sistemas, onde busco constantemente evoluir como desenvolvedor e arquiteto de soluções.
+Me encontrei na interseção entre dados, arquitetura de sistemas e liderança técnica.
 
 ## Meus Projetos
 
@@ -76,7 +76,7 @@ Durante o primeiro semestre, a equipe enfrentou desafios significativos: compree
 
 Conflitos surgiram, como era esperado em um grupo em formação. A equipe esteve, por vezes, desorientada e desmotivada, o que resultou em entregas aquém do esperado.
 
-Essa experiência, no entanto, não foi em vão, ela acendeu a fagulha que, nos semestres seguintes, se tornaria realidade: a necessidade de exercer formalmente a função de Scrum Master.
+Tais conflitos me fizeram evoluir em postos chave para meu desenvolvimento posterior como <b>trabalho em equipe</b>, pois precisei atuar com maior <b>proatividade</b>, aprender como <b>gerenciar conflitos</b> e trabalhar com foco em <b>colaboração</b>. Essa experiência, no entanto, não foi em vão, ela acendeu a fagulha que, nos semestres seguintes, se tornaria realidade: a necessidade de exercer formalmente a função de Scrum Master.
 
 ---
 
@@ -131,7 +131,12 @@ Na gestão, mantive o burndown atualizado, organizei as histórias de usuário e
 
 ### Soft Skills
 
-No segundo semestre, a necessidade identificada anteriormente tornou-se ação concreta: assumi a função de Scrum Master. A experiência exigiu equilíbrio constante entre a liderança do grupo e a contribuição técnica direta. Foi necessário distribuir tarefas de forma estratégica, acompanhar o burndown e mediar impasses entre os membros da equipe. Paralelamente, desenvolvi a capacidade de apresentar resultados e justificar decisões técnicas com diferentes níveis de familiaridade com o sistema. O planejamento por sprint, aliado ao acompanhamento contínuo das entregas e à validação dos critérios de aceitação acordados com o cliente, conferiu ao projeto um ritmo mais sólido e previsível. A necessidade do primeiro semestre havia se transformado no diferencial do segundo.
+O segundo semestre trouxe desafios diferentes, pois foi o primeiro em que atuei como Scrum Master. Essa posição no grupo exigiu uma postura com maior **responsabilidade**, já que a equipe necessitava de **liderança** e **organização**. Foi a primeira vez em que tive que fazer a **delegação de tarefas**, traçar um **planejamento** e praticar uma **resiliência** que até então eu não tinha tão bem maturada, pois nem sempre o planejado se converte em realizado.
+
+Paralelamente, pude aprimorar minha **comunicação oral**, pois fui o responsável pelas apresentações de resultados ao cliente.
+Por vezes, precisei participar de reuniões no lugar do P.O., fato que elevou o nível de **responsabilidade** sobre mim e me fez desenvolver maior senso de **integridade**.
+
+Por fim, a necessidade do primeiro semestre havia se transformado no diferencial do segundo.
 
 ---
 
@@ -165,7 +170,7 @@ A busca pelo usuário utiliza filtros dinâmicos compostos por título, conteúd
 
 ### Contribuições Pessoais
 
-Foi o semestre em que deixei de codar de forma central e assumi a gestão integral das sprints.Foi o semestre em que deixei de codar de forma central e assumi a gestão integral das sprints. A contribuição técnica existiu, mas foi pontual: ajustes na integração entre front-end e back-end no módulo de APIs, substituindo rotas inconsistentes por padrões definitivos via Vue.js e Axios, corrigindo payloads e organizando a camada de serviço no back-end. O tipo de tarefa que aparece quando alguém precisa destravar o time, não quando está no centro do desenvolvimento.
+Foi o semestre em que deixei de codar de forma central e assumi a gestão integral das sprints. A contribuição técnica existiu, mas foi pontual: ajustes na integração entre front-end e back-end no módulo de APIs, substituindo rotas inconsistentes por padrões definitivos via Vue.js e Axios, corrigindo payloads e organizando a camada de serviço no back-end. O tipo de tarefa que aparece quando alguém precisa destravar o time, não quando está no centro do desenvolvimento.
 
 A maior parte da energia foi dedicada à gestão. Manter o burndown, atualizar a documentação e garantir que as sprints tivessem critérios de aceitação claros eram as responsabilidades que mais pesavam. Era o terceiro semestre no projeto e o primeiro em dedicação exclusiva à função. A diferença foi perceptível: com menos alternância de contexto, o acompanhamento do time ficou mais próximo e as entregas mais previsíveis.
 
@@ -185,13 +190,11 @@ A maior parte da energia foi dedicada à gestão. Manter o burndown, atualizar a
 
 ### Soft Skills
 
-No terceiro semestre, a atuação como Scrum Master ganhou novos contornos. Diferentemente do semestre anterior, a função passou a ser exercida em dedicação exclusiva à gestão — sem contribuição direta no desenvolvimento —, o que permitiu um acompanhamento mais próximo da equipe e do andamento das sprints.
+No terceiro semestre, devido à atuação exclusiva como Scrum Master exigida pelo professor, minhas noções de **planejamento**, **liderança** e **organização e gestão do tempo** tiveram que evoluir. Foi nesse semestre que iniciamos a mensuração de tempo por meio de gráfico Burndown, exigindo mais do meu **pensamento analítico** e **tomada de decisão** para avaliar se uma tarefa caberia ou não na sprint, se necessitaria ser quebrada ou se poderia ser solicitado ao P.O. que negociasse com o cliente uma alteração no escopo.
 
-O principal desafio do período foi a recomposição do time: novos integrantes, com quem ainda não havia trabalhado, precisaram ser integrados rapidamente à dinâmica do projeto. Somado a isso, o Product Owner possuía experiência consideravelmente superior à do grupo, o que elevou o nível de exigência das entregas e exigiu maior rigor no alinhamento entre as expectativas do cliente e a capacidade técnica real da equipe.
+Outro desafio do período foi a recomposição do time: novos integrantes com quem ainda não havia trabalhado trouxeram a necessidade de desenvolver minha **gestão de pessoas** e **gestão de conflitos**, pois os integrantes não se conheciam bem e não tinham intimidade entre si, exigindo uma integração rápida à dinâmica do projeto. Somado a isso, o Product Owner possuía experiência consideravelmente superior à do grupo, o que elevou o nível de exigência das entregas e exigiu maior rigor no alinhamento entre as expectativas do cliente e a capacidade técnica real da equipe, reforçando minha **tomada de decisão estratégica**.
 
-Diante das lacunas identificadas, foi necessário organizar direcionamentos de capacitação para nivelar o conhecimento entre os membros, garantindo que todos pudessem contribuir efetivamente nas sprints seguintes. Manter a motivação e o alinhamento do time, mesmo em um cenário de baixo engajamento inicial, tornou-se tão relevante quanto o cumprimento dos prazos.
-
-Apesar das adversidades, o semestre foi concluído com resultados satisfatórios. Mais do que isso, o conjunto de desafios enfrentados — lidar com um time desconhecido, gerenciar expectativas elevadas e conduzir um processo de capacitação em paralelo às entregas — consolidou de forma significativa a minha visão sobre gestão de equipes, ampliando tanto a experiência prática quanto a maturidade no exercício da liderança.
+Apesar das adversidades, o semestre foi concluído com resultados satisfatórios. Pude evoluir muito como **líder** e **gestor de pessoas**, pois o time possuía perfis bastante distintos, o que exigiu **resiliência** no dia a dia e uma abordagem individualizada para manter a coesão do grupo. Além disso, aprimorei minha **resolução de problemas** ao ter que estruturar atividades de pesquisa para tecnologias e integrações entre back-end e front-end que o time ainda não dominava, transformando incertezas técnicas em tarefas acionáveis dentro da sprint.
 
 ---
 
@@ -259,11 +262,11 @@ Na gestão, o semestre foi mais equilibrado. A documentação e o backlog reflet
 
 ### Soft Skills
 
-No quarto semestre, o equilíbrio conquistado anteriormente foi posto à prova de forma diferente. Uma divergência entre o Product Owner e um dos desenvolvedores, iniciada como discordância técnica, evoluiu para um conflito interpessoal que foi fragmentando o time ao longo do semestre. O ciclo encerrou com entregas satisfatórias, porém sem a continuidade da equipe.
+No quarto semestre, minha **gestão de conflitos** foi testada de forma inédita. Uma divergência entre o Product Owner e um desenvolvedor, iniciada como discordância técnica, evoluiu para um conflito interpessoal que fragmentou o time. A resposta foi criar tarefas intermediárias que integravam o trabalho das duas partes sem exigir interação direta entre elas, o que exigiu **criatividade**, **tomada de decisão** e **negociação** para manter o projeto avançando sem acirrar a situação.
 
-A resposta foi a criação de tarefas intermediárias, atividades que integravam o trabalho das duas partes sem exigir interação direta entre elas. Funcionou parcialmente: o trabalho fluiu, a relação não se restabeleceu. Em paralelo, a coordenação entre os squads de backend e frontend, o gerenciamento de bloqueios técnicos e o onboarding de novos membros exigiram comunicação constante e tradução de decisões arquiteturais para diferentes perfis da equipe.
+Acumular gestão e desenvolvimento nesse semestre também exigiu mais da minha **organização e gestão do tempo** e do meu **pensamento analítico**, já que cada decisão técnica precisava ser tomada com clareza mesmo sob pressão interpessoal constante.
 
-O aprendizado mais duradouro, porém, foi de natureza humana: o papel do Scrum Master não é o de terapeuta, mas o de arquiteto de condições. Nem todo conflito será resolvido — mas é possível criar estruturas que permitam que o trabalho aconteça mesmo quando as pessoas estão com dificuldade de se enxergar.
+O aprendizado mais duradouro foi de natureza humana: o papel do Scrum Master não é o de terapeuta, mas o de arquiteto de condições. Nem todo conflito será resolvido, mas é possível criar estruturas que permitam que o trabalho aconteça mesmo quando as pessoas estão com dificuldade de se enxergar. Essa consciência aprofundou minha **resiliência** de forma definitiva.
 
 ---
 
@@ -324,11 +327,11 @@ A arquitetura em monorepo com submódulos Git independentes e pipelines de CI/CD
 
 ### Soft Skills
 
-No quinto semestre, a decisão foi deixar o cargo de Scrum Master. Três semestres no papel eram suficientes para reconhecer que reter conhecimento não serve a ninguém e dar espaço para outro integrante assumir a função fortalecia o time.
+No quinto semestre, a decisão de deixar o cargo de Scrum Master foi consciente: três semestres no papel eram suficientes para reconhecer que reter conhecimento não serve a ninguém. Ceder o espaço para outro integrante assumir a função foi um exercício de **liderança** e **autodesenvolvimento**, pois exigiu abrir mão de um papel consolidado para me fortalecer tecnicamente onde ainda havia lacunas.
 
-Na questão de DevOps, a minha responsabilidade assumida foi o rastreio de requisitos. Referenciar sprints, commits e pull requests pelo GitHub Projects permitia partir de um requisito e chegar ao commit exato que o implementou. Quando um bug surgia, era possível identificar sua origem com precisão, não para apontar responsáveis, mas para entender o que havia acontecido e corrigir de verdade.
+A transição, porém, não significou afastamento da gestão. Atuei como **mentor** do novo Scrum Master, orientando sobre cerimônias, construção do Burndown, definição e quebra de tarefas, controle de prazos e **gestão de pessoas**. Transferir esse conhecimento de forma estruturada exigiu **comunicação**, **organização** e a capacidade de traduzir experiência prática em orientação acionável, desenvolvendo em mim uma dimensão de **mentoria** que até então não havia explorado.
 
-Essa abordagem me trouxe um maior entendimento de processos e o tamanho do valor desse tipo de conceito traz para as equipes. Foi o maior aprendizado adquirido no semestre, conhecimento tal que tive a oportunidade de aplicar em atividades profissionais.
+No eixo técnico, assumi a responsabilidade pelo rastreio de requisitos, conectando sprints, commits e pull requests pelo GitHub Projects. Essa abordagem aprofundou meu **pensamento analítico** e meu entendimento de processos, aprendizado que logo encontrou aplicação profissional na Kersys, onde pude planejar e executar projetos com a mesma lógica de rastreabilidade e controle.
 
 ---
 
@@ -359,203 +362,15 @@ A arquitetura dual de banco de dados (MongoDB para dados analíticos públicos e
 
 ### Contribuições Pessoais
 
-Atuei como Scrum Master e desenvolvedor, com foco na infraestrutura de autenticação, observabilidade e pipeline de dados.
+O sexto semestre foi o mais amplo em termos de responsabilidade arquitetural. Voltei ao cargo de Scrum Master, o que significava garantir qualidade técnica e andamento do time simultaneamente.
 
-### 1. Pipeline ETL (Python / FastAPI)
-   - Implementação das etapas de extração e transformação dos dados públicos da ANEEL, incluindo processamento dos indicadores DEC/FEC e arquivos geoespaciais BDGD
-   - Carga incremental no MongoDB com upsert idempotente, garantindo reprocessamento seguro sem duplicação de dados
+A decisão mais estratégica foi a separação entre PostgreSQL e MongoDB por natureza dos dados: sensíveis no PostgreSQL, protegidos por Row Level Security e Flyway; públicos no MongoDB. Essa arquitetura surgiu da leitura correta do que a LGPD exigia para cada tipo de dado, não de uma preferência técnica.
 
-### 2. Autenticação e Autorização com Keycloak e OAuth 2.0
+O Keycloak foi um desafio assumido voluntariamente. A proposta partiu do professor, mas a implementação completa, fluxo PKCE, integração com auth.js e separação de perfis, foi conduzida por mim. O structured logging com structlog complementou esse ciclo de compliance, registrando operações sem expor dados pessoais.
 
-A autenticação do sistema é delegada ao Keycloak como servidor de identidade centralizado, com o backend atuando como resource server — validando tokens, gerenciando sessões próprias e emitindo seus próprios JWTs para as chamadas subsequentes à API.
+O pipeline ETL processou arquivos geoespaciais BDGD e CSVs de indicadores DEC/FEC com cerca de cinco milhões de linhas, resolvido com processamento em chunks para garantir rastreabilidade sem comprometer a memória.
 
----
-
-#### 2.1 Topologia do Keycloak
-
-<details>
-<summary>Clique para expandir</summary>
-
-O Keycloak é configurado com um realm dedicado ao projeto Zeus e dois clientes distintos:
-
-| Cliente      | Tipo         | Fluxo                        | Finalidade                                          |
-|--------------|--------------|------------------------------|-----------------------------------------------------|
-| Frontend     | Público      | Authorization Code + PKCE    | Login do usuário via navegador, sem client_secret   |
-| Backend      | Confidencial | Client Credentials           | Service account para provisionamento via Admin API  |
-
-A separação de clientes garante que o frontend nunca precise de um segredo compartilhado — o PKCE substitui essa necessidade — enquanto o backend mantém credenciais privadas para operações administrativas.
-
-</details
-
----
-
-#### 2.2 Fluxo OAuth 2.0 Authorization Code com PKCE (`oauth_callback`)
-
-<details>
-<summary>Clique para expandir</summary>
-
-```
-User             Frontend             Keycloak           Backend (FastAPI)
-   │                 │                    │                      │
-   │  Clicks Login   │                    │                      │
-   │────────────────>│                    │                      │
-   │                 │ Generates          │                      │
-   │                 │ code_verifier      │                      │
-   │                 │ code_challenge     │                      │
-   │                 │ (SHA-256)          │                      │
-   │                 │                    │                      │
-   │                 │ Sends redirect_uri │                      │
-   │                 │ + code_challenge   │                      │
-   │                 │───────────────────>│                      │
-   │   Redirects to Keycloak login page   │                      │
-   │<─────────────────────────────────────│                      │
-   │ Enters login    │                    │                      │
-   │ and password    │                    │                      │
-   │─────────────────────────────────────>│                      │
-   │                 │   authorization_code                      │
-   │                 │<───────────────────│                      │
-   │                 │ Sends code +       │                      │
-   │                 │ code_verifier      │                      │
-   │                 │───────────────────>│                      │
-   │                 │                    │ Validates PKCE       │
-   │                 │                    │ (hash of verifier    │
-   │                 │                    │  == challenge)       │
-   │                 │  access_token      │                      │
-   │                 │  refresh_token     │                      │
-   │                 │<───────────────────│                      │
-   │                 │ Authorization:     │                      │
-   │                 │ Bearer <token>     │                      │
-   │                 │──────────────────────────────────────────>│
-   │                 │                    │    Validates token   │
-   │                 │                    │    via JWKS          │
-   │                 │                    │    Checks profile    │
-   │                 │<──────────────────────────────────────────│
-   │                 │    API Response    │                      │
-```
-
-Ao receber o `code` e o `code_verifier` do frontend, o `oauth_callback` executa a seguinte sequência:
-
-1. **Troca do code pelo token do Keycloak** — POST para o endpoint `/token` do Keycloak com `grant_type=authorization_code` e o `code_verifier`, que o Keycloak valida contra o `code_challenge` enviado no início do fluxo.
-
-2. **Validação via JWKS** — o `access_token` retornado é validado localmente usando `PyJWKClient`, que busca a chave pública do Keycloak no endpoint `/certs` e mantém cache das chaves. A assinatura RS256 é verificada sem round-trip adicional ao Keycloak.
-
-3. **Extração de identidade** — do payload do token são extraídos o `sub` (identificador do usuário no Keycloak, `keycloak_sub`) e o perfil a partir de `realm_access.roles`, aceitando apenas os valores `ADMIN`, `MANAGER` ou `ANALYST`. Tokens sem nenhuma dessas roles retornam `403 no_valid_profile_role`.
-
-4. **Verificação no PostgreSQL** — o `keycloak_sub` é usado para localizar o usuário no banco local. Se não encontrado: `401 user_not_registered`. Se inativo: `403 inactive_user`. O Keycloak é a fonte de verdade para autenticação, mas o PostgreSQL é a fonte de verdade para autorização e status da conta.
-
-5. **Emissão de tokens próprios** — o backend gera um par de tokens independentes do Keycloak:
-   - **Access token RS256** com payload `{sub, sid, profile, username, exp, type: "access"}`, assinado com chave privada própria e de curta duração
-   - **Refresh token opaco** gerado com `secrets.token_urlsafe(48)`, armazenado no banco apenas como `SHA-256(token)` — nunca o valor em claro
-
-```python
-# Validação do token Keycloak via JWKS com cache de chaves
-signing_key = _get_jwks_client().get_signing_key_from_jwt(kc_access_token)
-kc_payload = _jwt.decode(kc_access_token, signing_key, algorithms=["RS256"], ...)
-
-# Extração de perfil a partir das realm roles
-kc_roles = kc_payload.get("realm_access", {}).get("roles", [])
-profile_name = next((r for r in kc_roles if r in ("ADMIN", "MANAGER", "ANALYST")), None)
-```
-
-</details
-
----
-
-#### 2.3 Refresh Token Rotation
-
-<details>
-<summary>Clique para expandir</summary>
-
-A cada renovação de token, o refresh token anterior é **invalidado atomicamente** no banco via `rotate_refresh_token`, que em uma única operação localiza o hash atual, invalida-o e grava o hash do novo token. Se o hash não for encontrado ou a sessão estiver expirada, retorna `401 invalid_or_expired_refresh_token`.
-
-Essa estratégia de rotation garante que, em caso de vazamento de um refresh token, qualquer tentativa de reutilizá-lo após já ter sido rotacionado será bloqueada — o token só é válido uma única vez.
-
-```python
-session_data = rotate_refresh_token(
-    conn,
-    refresh_token_hash=hash_token(payload.refresh_token),      # hash do token atual
-    new_refresh_token_hash=hash_token(new_refresh_token),      # hash do próximo
-    refresh_expires_at=refresh_expires_at,
-)
-```
-
-</details
-
----
-
-#### 2.4 Logout Duplo
-
-<details>
-<summary>Clique para expandir</summary>
-
-O logout invalida a sessão em duas camadas:
-
-1. **PostgreSQL** — `invalidate_session()` marca a sessão como inativa pelo `session_id` contido no JWT. Se a sessão já não existir, retorna `401 invalid_or_expired_session`.
-2. **Keycloak SSO** — `KeycloakAdminClient.delete_user_sessions(keycloak_sub)` chama `DELETE /admin/realms/{realm}/users/{sub}/sessions`, encerrando todas as sessões SSO ativas do usuário no Keycloak. Essa chamada é feita em bloco `try/except` — falhas no Keycloak não impedem o logout local, garantindo degradação graciosa.
-
-Sem o logout duplo, mesmo com a sessão invalidada no banco, o token SSO do Keycloak permaneceria válido, permitindo re-autenticação silenciosa sem nova digitação de senha.
-
-
-</details>
-
----
-
-#### 2.5 `KeycloakAdminClient` — Singleton com Cache de Token
-
-<details>
-<summary>Clique para expandir</summary>
-
-O `KeycloakAdminClient` é instanciado como singleton via `get_keycloak_admin_client()`, garantindo que o cache de token de service account persista entre requisições. O token é obtido via `client_credentials` e reutilizado enquanto válido (com margem de 10 segundos para renovação antecipada).
-
-As operações suportadas via Admin API cobrem todo o ciclo de vida do usuário no Keycloak:
-
-| Método                        | Operação                                              |
-|-------------------------------|-------------------------------------------------------|
-| `create_user`                 | Cria usuário com `requiredActions: [UPDATE_PASSWORD]` |
-| `get_user` / `get_users`      | Consulta por ID ou listagem com busca e paginação     |
-| `update_user`                 | Atualiza username e/ou email                          |
-| `set_user_enabled`            | Ativa ou desativa o usuário                           |
-| `assign_realm_role`           | Atribui um perfil (`ADMIN`, `MANAGER`, `ANALYST`)     |
-| `update_user_role`            | Troca de perfil: remove o antigo e atribui o novo     |
-| `send_required_actions_email` | Envia e-mail para o usuário completar ações pendentes |
-| `delete_user_sessions`        | Encerra todas as sessões SSO do usuário               |
-| `delete_user`                 | Remove o usuário do Keycloak                          |
-
-Os erros são tipados em três exceções distintas — `KeycloakUserAlreadyExistsError`, `KeycloakUserNotFoundError` e `KeycloakAdminError` — permitindo tratamento granular na camada de serviço sem depender de inspeção de status HTTP.
-
-</details>
-
----
-
-#### 2.6 Pseudoanonimização de IP (LGPD)
-
-<details>
-<summary>Clique para expandir</summary>
-
-O IP de origem é mascarado antes de ser persistido na sessão, via `mask_source_ip()`:
-
-- **IPv4**: zera o último octeto — `192.168.1.42` → `192.168.1.0`
-- **IPv6**: mantém apenas os quatro primeiros grupos — `2001:db8:85a3:0:...` → `2001:db8:85a3:0000::`
-
-```python
-def mask_source_ip(source_ip: str | None) -> str:
-    parsed = ip_address(value)
-    if parsed.version == 4:
-        octets = value.split(".")
-        return f"{octets[0]}.{octets[1]}.{octets[2]}.0"
-    hextets = parsed.exploded.split(":")
-    return f"{':'.join(hextets[:4])}}::"
-```
-
-Essa técnica preserva granularidade suficiente para fins de auditoria e detecção de anomalias (identificar a sub-rede de origem), sem armazenar o endereço exato do usuário — configurando pseudoanonimização conforme o Art. 13 da LGPD.
-
-</details>
-
----
-
-
-### 3. Documentação e Gestão
-   - Organização do backlog, manutenção do burndown e alinhamento das entregas com o parceiro Tecsys ao longo das sprints
+As GitHub Actions de validação de commits, templates de PR e criação automática de branches, junto ao burndown automático que lia o GitHub via GraphQL e se atualizava diariamente sem intervenção manual, foram iniciativas de processo que liberaram o time para focar na entrega. Os containers de MongoDB Express e pgAdmin no ambiente local fecharam o ciclo, reduzindo o atrito no onboarding dos desenvolvedores.
 
 ### Hard Skills
 
@@ -568,14 +383,15 @@ Essa técnica preserva granularidade suficiente para fins de auditoria e detecç
 
 ### Soft Skills
 
-O semestre mais técnico de todos. Pela primeira vez, eu não estava apenas gerenciando o processo, estava no centro da arquitetura. Coordenar back-end, ETL e front-end ao mesmo tempo, dentro de um monorepo, exigiu uma visão que vai além do código: qualquer decisão mal tomada em uma ponta afetava as outras duas.
+No sexto semestre, a volta ao cargo de Scrum Master trouxe os desafios mais complexos da graduação.
 
-Uma das decisões arquiteturais que mais impactou o sistema foi a definição da estratégia de dual database: PostgreSQL para dados sensíveis e MongoDB para dados públicos. Essa separação não foi apenas uma escolha técnica, foi uma decisão de produto. Dados com implicações legais precisam de um modelo relacional controlado, auditável e aderente à LGPD. Dados públicos, com outro perfil de acesso e volume, se beneficiam da flexibilidade do MongoDB.
-Entender essa diferença e modelar o banco relacional já pensando em conformidade desde o início, incluindo pseudoanonimização e armazenamento seguro de tokens, foi um dos aprendizados mais relevantes do semestre.
+A decisão de organizar o time no início do semestre, estabelecendo regras de convivência com consentimento de todos, foi um exercício de **liderança** preventiva, **coragem** e **gestão de pessoas**. Gerir integrantes com posturas distintas e aplicar as regras propostas sem exceções foi o momento em que minha **integridade**, **ética profissional** e **responsabilidade** foram mais testadas.
 
-O Keycloak entrou como consequência natural dessa visão de segurança. Estudar a fundo os fluxos OAuth 2.0, a topologia de realms e clientes e o PKCE foi necessário para implementar uma autenticação que fizesse sentido para o sistema como um todo, não apenas para uma rota isolada.
+Acumular as funções de Scrum Master e Product Owner na primeira sprint, participando da reunião com o cliente no lugar do P.O. e definindo requisitos, arquitetura e user stories, exigiu **tomada de decisão** contínua e **organização e gestão do tempo** no limite.
 
-A liderança nesse semestre foi menos sobre gestão de pessoas e mais sobre integração técnica. Manter todos os módulos coerentes, o CI/CD funcionando e as entregas alinhadas com o parceiro exigiu o mesmo equilíbrio aprendido nos semestres anteriores, só que aplicado à arquitetura.
+Trabalhar com três perfis distintos de Product Owner ao longo do semestre, incluindo um com postura de mínimo esforço oposta à minha, desenvolveu minha **negociação**, **flexibilidade** e **adaptabilidade** de forma prática e inevitável.
+
+Assumir entregas técnicas de integrantes que não cumpriram suas tarefas, acumulando desenvolvimento e gestão na sprint final, consolidou minha **resiliência** e reforçou que **liderança** real significa garantir a entrega independentemente das circunstâncias.
 
 ---
 
