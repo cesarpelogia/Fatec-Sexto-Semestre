@@ -76,7 +76,9 @@ Durante o primeiro semestre, a equipe enfrentou desafios significativos: compree
 
 Conflitos surgiram, como era esperado em um grupo em formação. A equipe esteve, por vezes, desorientada e desmotivada, o que resultou em entregas aquém do esperado.
 
-Tais conflitos me fizeram evoluir em postos chave para meu desenvolvimento posterior como <b>trabalho em equipe</b>, pois precisei atuar com maior <b>proatividade</b>, aprender como <b>gerenciar conflitos</b> e trabalhar com foco em <b>colaboração</b>. Essa experiência, no entanto, não foi em vão, ela acendeu a fagulha que, nos semestres seguintes, se tornaria realidade: a necessidade de exercer formalmente a função de Scrum Master.
+Esses desafios foram o ponto de partida do meu desenvolvimento interpessoal. A necessidade de manter o grupo funcionando exigiu **colaboração** e **gestão de conflitos** em um momento em que eu ainda não tinha maturidade para exercê-las com consistência. Estar em um ambiente completamente novo ativou minha disposição de **aprendizado contínuo**: absorver ferramentas, processos e dinâmicas de equipe sem esperar que o caminho estivesse traçado. Foi também o semestre em que comecei a construir **vínculos de confiança** dentro do time, base para tudo que viria depois.
+
+Essa experiência não foi em vão: ela acendeu a fagulha que, nos semestres seguintes, se tornaria realidade na função de Scrum Master.
 
 ---
 
@@ -138,6 +140,14 @@ Por vezes, precisei participar de reuniões no lugar do P.O., fato que elevou o 
 
 Por fim, a necessidade do primeiro semestre havia se transformado no diferencial do segundo.
 
+O segundo semestre trouxe desafios diferentes, pois foi o primeiro em que atuei como Scrum Master. Assumir essa função exigiu uma postura de maior **responsabilidade**, já que a equipe necessitava de **liderança** e **organização**. Foi a primeira vez em que tive que organizar pessoas e tarefas para maximizar o resultado do time, traçar um **planejamento** e praticar uma **resiliência** que até então não tinha tão bem maturada, pois nem sempre o planejado se converte em realizado.
+
+Mais do que **delegar**, percebi que meu papel era desenvolver o time: entender o que cada integrante precisava para entregar melhor, não apenas **distribuir tarefas**. Essa percepção marcou o início de uma postura de cuidado com o crescimento das pessoas ao meu redor.
+
+Paralelamente, aprimorei minha **comunicação oral** ao assumir as apresentações de resultados ao cliente. Por vezes, precisei participar de reuniões no lugar do P.O., fato que elevou o nível de **responsabilidade** sobre mim e exigiu maior senso de **integridade** na forma como me posicionava perante o cliente.
+
+Por fim, a necessidade do primeiro semestre havia se transformado no diferencial do segundo.
+
 ---
 
 ## :heavy_check_mark: Em 2024-2
@@ -192,9 +202,9 @@ A maior parte da energia foi dedicada à gestão. Manter o burndown, atualizar a
 
 No terceiro semestre, devido à atuação exclusiva como Scrum Master exigida pelo professor, minhas noções de **planejamento**, **liderança** e **organização e gestão do tempo** tiveram que evoluir. Foi nesse semestre que iniciamos a mensuração de tempo por meio de gráfico Burndown, exigindo mais do meu **pensamento analítico** e **tomada de decisão** para avaliar se uma tarefa caberia ou não na sprint, se necessitaria ser quebrada ou se poderia ser solicitado ao P.O. que negociasse com o cliente uma alteração no escopo.
 
-Outro desafio do período foi a recomposição do time: novos integrantes com quem ainda não havia trabalhado trouxeram a necessidade de desenvolver minha **gestão de pessoas** e **gestão de conflitos**, pois os integrantes não se conheciam bem e não tinham intimidade entre si, exigindo uma integração rápida à dinâmica do projeto. Somado a isso, o Product Owner possuía experiência consideravelmente superior à do grupo, o que elevou o nível de exigência das entregas e exigiu maior rigor no alinhamento entre as expectativas do cliente e a capacidade técnica real da equipe, reforçando minha **tomada de decisão estratégica**.
+Outro desafio do período foi a recomposição do time: novos integrantes com quem ainda não havia trabalhado trouxeram a necessidade de desenvolver minha **gestão de pessoas** e **gestão de conflitos**. Cada integrante tinha um perfil diferente, e reconhecer essas diferenças para adaptar minha abordagem a cada um foi o que manteve o grupo coeso. Somado a isso, o Product Owner possuía experiência consideravelmente superior à do grupo, o que elevou o nível de exigência das entregas e exigiu maior rigor no alinhamento entre as expectativas do cliente e a capacidade técnica real da equipe, reforçando minha **tomada de decisão estratégica**.
 
-Apesar das adversidades, o semestre foi concluído com resultados satisfatórios. Pude evoluir muito como **líder** e **gestor de pessoas**, pois o time possuía perfis bastante distintos, o que exigiu **resiliência** no dia a dia e uma abordagem individualizada para manter a coesão do grupo. Além disso, aprimorei minha **resolução de problemas** ao ter que estruturar atividades de pesquisa para tecnologias e integrações entre back-end e front-end que o time ainda não dominava, transformando incertezas técnicas em tarefas acionáveis dentro da sprint.
+Apesar das adversidades, o semestre foi concluído com resultados satisfatórios. Evolui como **líder** ao perceber que a melhor forma de manter a coesão era tratar cada pessoa pelo que ela precisava, não pelo que era mais fácil para mim. Aprimorei também minha **resolução de problemas** ao estruturar atividades de pesquisa para tecnologias que o time ainda não dominava, transformando incertezas técnicas em tarefas acionáveis dentro da sprint, o que exigiu **resiliência** para sustentar o ritmo mesmo com o nível de exigência elevado.
 
 ---
 
@@ -262,9 +272,9 @@ Na gestão, o semestre foi mais equilibrado. A documentação e o backlog reflet
 
 ### Soft Skills
 
-No quarto semestre, minha **gestão de conflitos** foi testada de forma inédita. Uma divergência entre o Product Owner e um desenvolvedor, iniciada como discordância técnica, evoluiu para um conflito interpessoal que fragmentou o time. A resposta foi criar tarefas intermediárias que integravam o trabalho das duas partes sem exigir interação direta entre elas, o que exigiu **criatividade**, **tomada de decisão** e **negociação** para manter o projeto avançando sem acirrar a situação.
+No quarto semestre, minha **gestão de conflitos** foi testada de forma inédita. Uma divergência entre o Product Owner e um desenvolvedor, iniciada como discordância técnica, evoluiu para um conflito interpessoal que fragmentou o time. A resposta exigiu mais do que mediar: foi preciso encontrar um caminho alternativo, momento em que tive que aprimorar minha **criatividade**, meu **pensamento estratégico** e minha **iniciativa** de transformar um problema interpessoal em uma solução prática e aceitáve, criando tarefas intermediárias que integravam o trabalho das duas partes sem exigir interação direta entre elas. Essa solução nasceu de uma postura de busca por harmonia funcional, priorizando o que permitia o trabalho fluir em vez de forçar uma reconciliação que não viria.
 
-Acumular gestão e desenvolvimento nesse semestre também exigiu mais da minha **organização e gestão do tempo** e do meu **pensamento analítico**, já que cada decisão técnica precisava ser tomada com clareza mesmo sob pressão interpessoal constante.
+Acumular gestão e desenvolvimento nesse semestre também exigiu mais da minha **organização e gestão do tempo** e do meu **pensamento analítico**, já que cada decisão técnica precisava ser tomada com clareza mesmo sob pressão interpessoal constante. A capacidade de avaliar cada situação com cautela antes de agir, pesando riscos e consequências, foi o que sustentou a qualidade das entregas.
 
 O aprendizado mais duradouro foi de natureza humana: o papel do Scrum Master não é o de terapeuta, mas o de arquiteto de condições. Nem todo conflito será resolvido, mas é possível criar estruturas que permitam que o trabalho aconteça mesmo quando as pessoas estão com dificuldade de se enxergar. Essa consciência aprofundou minha **resiliência** de forma definitiva.
 
@@ -327,11 +337,11 @@ A arquitetura em monorepo com submódulos Git independentes e pipelines de CI/CD
 
 ### Soft Skills
 
-No quinto semestre, a decisão de deixar o cargo de Scrum Master foi consciente: três semestres no papel eram suficientes para reconhecer que reter conhecimento não serve a ninguém. Ceder o espaço para outro integrante assumir a função foi um exercício de **liderança** e **autodesenvolvimento**, pois exigiu abrir mão de um papel consolidado para me fortalecer tecnicamente onde ainda havia lacunas.
+No quinto semestre, a decisão de deixar o cargo de Scrum Master foi consciente: três semestres no papel eram suficientes para reconhecer que reter conhecimento não serve a ninguém. Ceder o espaço para outro integrante assumir a função foi um exercício de **liderança** e **autodesenvolvimento**, pois exigiu abrir mão de um papel consolidado para me fortalecer tecnicamente onde ainda havia lacunas. Reconhecer onde eu precisava crescer e agir sobre isso exigiu **autoconhecimento** e maturidade que os semestres anteriores foram construindo.
 
-A transição, porém, não significou afastamento da gestão. Atuei como **mentor** do novo Scrum Master, orientando sobre cerimônias, construção do Burndown, definição e quebra de tarefas, controle de prazos e **gestão de pessoas**. Transferir esse conhecimento de forma estruturada exigiu **comunicação**, **organização** e a capacidade de traduzir experiência prática em orientação acionável, desenvolvendo em mim uma dimensão de **mentoria** que até então não havia explorado.
+A transição, porém, não significou afastamento da gestão. Atuei como **mentor** do novo Scrum Master, orientando sobre cerimônias, construção do Burndown, definição e quebra de tarefas, controle de prazos e **gestão de pessoas**. Transferir esse conhecimento de forma estruturada exigiu **comunicação**, **organização** e a capacidade de enxergar o potencial do outro e criar condições para seu desenvolvimento, uma dimensão de **cuidado com o crescimento alheio** que até então não havia explorado de forma consciente.
 
-No eixo técnico, assumi a responsabilidade pelo rastreio de requisitos, conectando sprints, commits e pull requests pelo GitHub Projects. Essa abordagem aprofundou meu **pensamento analítico** e meu entendimento de processos, aprendizado que logo encontrou aplicação profissional na Kersys, onde pude planejar e executar projetos com a mesma lógica de rastreabilidade e controle.
+No eixo técnico, assumi a responsabilidade pelo rastreio de requisitos, conectando sprints, commits e pull requests pelo GitHub Projects. Essa abordagem aprofundou meu **pensamento analítico** e meu entendimento de processos, aprendizado que logo encontrou aplicação profissional na Kersys, onde pude planejar e executar projetos com a mesma lógica de **rastreabilidade** e **controle**.
 
 ---
 
@@ -385,11 +395,11 @@ As GitHub Actions de validação de commits, templates de PR e criação automá
 
 No sexto semestre, a volta ao cargo de Scrum Master trouxe os desafios mais complexos da graduação.
 
-A decisão de organizar o time no início do semestre, estabelecendo regras de convivência com consentimento de todos, foi um exercício de **liderança** preventiva, **coragem** e **gestão de pessoas**. Gerir integrantes com posturas distintas e aplicar as regras propostas sem exceções foi o momento em que minha **integridade**, **ética profissional** e **responsabilidade** foram mais testadas.
+A decisão de organizar o time no início do semestre, estabelecendo regras de convivência com consentimento de todos, foi um exercício de **liderança** preventiva, **coragem** e **gestão de pessoas**. Antecipar os riscos antes que se tornassem problemas exigiu uma postura **deliberativa**, avaliando cenários e estruturando salvaguardas com cuidado. Gerir integrantes com posturas distintas e aplicar as regras propostas sem exceções foi o momento em que minha **integridade**, **ética profissional** e **responsabilidade** foram mais testadas.
 
-Acumular as funções de Scrum Master e Product Owner na primeira sprint, participando da reunião com o cliente no lugar do P.O. e definindo requisitos, arquitetura e user stories, exigiu **tomada de decisão** contínua e **organização e gestão do tempo** no limite.
+Acumular as funções de Scrum Master e Product Owner na primeira sprint, participando da reunião com o cliente no lugar do P.O. e definindo requisitos, arquitetura e user stories, exigiu **tomada de decisão** contínua, **organização e gestão do tempo** no limite e a **confiança** de assumir um papel para o qual não havia sido designado, mas que o momento exigia.
 
-Trabalhar com três perfis distintos de Product Owner ao longo do semestre, incluindo um com postura de mínimo esforço oposta à minha, desenvolveu minha **negociação**, **flexibilidade** e **adaptabilidade** de forma prática e inevitável.
+Trabalhar com três perfis distintos de Product Owner ao longo do semestre, incluindo um com postura de mínimo esforço oposta à minha exigência pessoal, desenvolveu minha **negociação**, **flexibilidade** e **adaptabilidade** de forma prática e inevitável. Respeitar uma visão diferente da minha sem abrir mão do que era essencial foi um dos equilíbrios mais difíceis do semestre.
 
 Assumir entregas técnicas de integrantes que não cumpriram suas tarefas, acumulando desenvolvimento e gestão na sprint final, consolidou minha **resiliência** e reforçou que **liderança** real significa garantir a entrega independentemente das circunstâncias.
 
